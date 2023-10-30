@@ -1,0 +1,21 @@
+@use 'variaveis';
+
+.trailer{
+    width: 98vw;
+    height: 100vh;
+
+    &__video{
+        width: 95vw;;
+        height: 75vh;
+
+        @media screen and (max-width: 480px) {
+            width: 90vw;
+        }
+
+    }
+
+    h2{
+        font-style: italic;
+    }
+
+}

@@ -1,5 +1,0 @@
-{
-    "version": 2,
-    "builds": [{ "src": "gulpfile.js", "use": "@now/node" }],
-    "output": "dist"
-}
